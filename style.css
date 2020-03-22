@@ -1,0 +1,63 @@
+body{
+    background-color: black ;
+    color:white;
+    margin:0;
+    float: center;
+    align-items: center;
+
+}
+.container{ 
+    margin-top: 90px;
+    /* align-items: e; */
+    background-color: grey;
+    border: 3px black;
+    border-radius: 2rem;
+    /* display: flex; */
+    float: center;
+    padding: 3rem;
+    
+
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-emphasis: underline;
+}
+.lead{
+    text-align: center;
+}
+.form{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.pass-display{
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    float: center;
+}
+#generate {
+    
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-btn-secondary{
+    float: center;
+}
